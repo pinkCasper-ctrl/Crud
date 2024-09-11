@@ -420,9 +420,9 @@ intellisense.annotate(jQuery, {
   },
 });
 
-var _1228819969 = jQuery.Callbacks;
+let _1228819969 = jQuery.Callbacks;
 jQuery.Callbacks = function(flags) {
-var _object = _1228819969(flags);
+let _object = _1228819969(flags);
 intellisense.annotate(_object, {
   'add': function() {
     /// <signature>
